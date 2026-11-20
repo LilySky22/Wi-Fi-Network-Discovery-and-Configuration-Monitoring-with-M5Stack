@@ -11,7 +11,7 @@ To start, I downloaded the Arduino IDE onto my system as well as the boards
 libraries, before connecting the device to see if it can access the information
 pushed onto it. 
 
-I tried to add BootTest code and oush it to the device, but got the error of 
+I tried to add BootTest code and push it to the device, but got the error of 
 "Failed uploading: no upload port provided Failed uploading: no upload port provided".
 I very quickly realised that I had forgotton to select the port (in this case COM3) 
 earlier. Once I resolved the issue, the screen displayed correctly. My only issue was
@@ -22,14 +22,16 @@ be landscape, so that it is easier to read, so I changed the Lcd rotation too.
 I began to sort the next section of code, but, as I have never used C++, found things I 
 was not sure of such as "baud rate" and the difference between print and println. through 
 research I found that baud rate is the communication rate between my computer and the M5 
-through the USB connection. Essensially the bit rate. The difference between print and 
-println are also fairly straightforward, where println prints the string on a new line, 
-print prints it on the line they are currently on.
+through the USB connection. Its technically symbols per second, but in this scenario it's essensially the bit rate. The difference between print and println are also fairly straightforward, where println prints the string on a new line, print prints it on the line
+they are currently on.
 
 after writing the code, I pushed it onto he stick and it worked, however I had not 
 configured the baud on the serial monitor, so nothing displayed. This was another easy fix,
 as all I had to do was select 115200 baud from the dropdown. 
 
 Currently, the device only tells me whether the network is encrypted or open, but I would like
-to develop it further to determine the level of encryption. Also, although the deice found 11
-access points, it only displayed information for one (my own), which I am authorised to use.
+to develop it further to determine the security protocol. Also, although the device found 11
+networks, it only displayed information for one (my own), which I am authorised to use.
+
+I added a switch statement, which essentially is a more efficient way of using if statements,
+to select the encryption case. i also created the encryption variable, which then converts into readable text, ready to print.
