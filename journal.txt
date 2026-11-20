@@ -14,4 +14,7 @@ pushed onto it.
 I tried to add BootTest code and oush it to the device, but got the error of 
 "Failed uploading: no upload port provided Failed uploading: no upload port provided".
 I very quickly realised that I had forgotton to select the port (in this case COM3) 
-earlier. Once I rersolved the issue, the screen displayed correctly.
+earlier. Once I resolved the issue, the screen displayed correctly. My only issue was
+that it was displayed off center, so I used variables instead of println, which allowed 
+me to use the M5.Lcd.width() code to centre the text. I also wanted the screen display to
+be landscape, so that it is easier to read, so I changed the Lcd rotation too.
