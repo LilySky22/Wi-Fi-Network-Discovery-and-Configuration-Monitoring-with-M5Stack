@@ -10,3 +10,8 @@ wanted to see if I could use that for this project.
 To start, I downloaded the Arduino IDE onto my system as well as the boards 
 libraries, before connecting the device to see if it can access the information
 pushed onto it. 
+
+I tried to add BootTest code and oush it to the device, but got the error of 
+"Failed uploading: no upload port provided Failed uploading: no upload port provided".
+I very quickly realised that I had forgotton to select the port (in this case COM3) 
+earlier. Once I rersolved the issue, the screen displayed correctly.
