@@ -18,3 +18,10 @@ earlier. Once I resolved the issue, the screen displayed correctly. My only issu
 that it was displayed off center, so I used variables instead of println, which allowed 
 me to use the M5.Lcd.width() code to centre the text. I also wanted the screen display to
 be landscape, so that it is easier to read, so I changed the Lcd rotation too.
+
+I began to sort the next section of code, but, as I have never used C++, found things I 
+was not sure of such as "baud rate" and the difference between print and println. through 
+research I found that baud rate is the communication rate between my computer and the M5 
+through the USB connection. Essensially the bit rate. The difference between print and 
+println are also fairly straightforward, where println prints the string on a new line, 
+print prints it on the line they are currently on.
