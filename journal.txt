@@ -29,3 +29,7 @@ print prints it on the line they are currently on.
 after writing the code, I pushed it onto he stick and it worked, however I had not 
 configured the baud on the serial monitor, so nothing displayed. This was another easy fix,
 as all I had to do was select 115200 baud from the dropdown. 
+
+Currently, the device only tells me whether the network is encrypted or open, but I would like
+to develop it further to determine the level of encryption. Also, although the deice found 11
+access points, it only displayed information for one (my own), which I am authorised to use.
