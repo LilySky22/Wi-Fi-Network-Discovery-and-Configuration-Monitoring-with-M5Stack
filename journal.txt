@@ -1,0 +1,12 @@
+20/11/2026
+A few days ago I went on an educational trip to the University of Cumbria, 
+to take part in an ethical hacking bootcamp. In this we used Arduino IDE, as
+well as ESP32s to create a wardriving system, so I decided I would come back 
+and try to create something similar. 
+
+I remembered I had the M5Stack M5StickCPlus2, which runs off the ESP 32 and 
+wanted to see if I could use that for this project.
+
+To start, I downloaded the Arduino IDE onto my system as well as the boards 
+libraries, before connecting the device to see if it can access the information
+pushed onto it. 
