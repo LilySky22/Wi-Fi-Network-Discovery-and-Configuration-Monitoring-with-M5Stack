@@ -37,3 +37,7 @@ networks, it only displayed information for one (my own), which I am authorised 
 
 I added a switch statement, which essentially is a more efficient way of using if statements,
 to select the encryption case. i also created the encryption variable, which then converts into readable text, ready to print.
+
+21/11/2026
+At the moment my M5 stick device does not display any technical infomation, and isntead only
+shows "scanning" and "scan done", while the data is sent to my computer. This update, I want to display the information on my tiny screen.
