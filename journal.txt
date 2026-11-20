@@ -25,3 +25,7 @@ research I found that baud rate is the communication rate between my computer an
 through the USB connection. Essensially the bit rate. The difference between print and 
 println are also fairly straightforward, where println prints the string on a new line, 
 print prints it on the line they are currently on.
+
+after writing the code, I pushed it onto he stick and it worked, however I had not 
+configured the baud on the serial monitor, so nothing displayed. This was another easy fix,
+as all I had to do was select 115200 baud from the dropdown. 
