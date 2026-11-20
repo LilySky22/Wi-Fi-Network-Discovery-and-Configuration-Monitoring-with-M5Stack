@@ -13,7 +13,7 @@ void setup() {
   M5.Lcd.println("AUDITOR");
 
   M5.Lcd.setTextSize(1);
-  M5.Lcd.println("");
+  M5.Lcd.println(""); // leabes a line like <br> in html
   M5.Lcd.println("Device ready!");
 }
 
