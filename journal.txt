@@ -44,4 +44,5 @@ shows "scanning" and "scan done", while the data is sent to my computer. This up
 
 I decided that for now I  need 4 pages, which will include the initial "scan done" screen, then
 the SSID and BSSID, then signal strength and channel, then security protocol, before cycling back 
-around.
+around. I made sure that it only changed pages using the side button to ensure the scan button
+on the front remained functional
