@@ -38,3 +38,7 @@ The device uses passive Wi-Fi scanning to discover nearby access points without 
 This project is intended for educational and defensive security research.
 
 Scanning and analysis are restricted to authorised environments. The device does not attempt to access networks, capture credentials or bypass authentication.
+
+## Full development process
+
+To see my full development process, check out the journal.txt
